@@ -49,3 +49,10 @@ body {
     margin-left : -200px; /* half of the width  */
     margin-top  : -100px; /* half of the height */
 }
+
+.zoomHover { 
+	transition: all .2s ease-in-out; 
+}
+.zoomHover:hover { 
+	transform: scale(1.1); 
+}
