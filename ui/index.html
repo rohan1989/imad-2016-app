@@ -5,7 +5,7 @@
     </head>
     <body>
     <div>
-    	<img src="/ui/enfield.jpg" class="background"/>
+    	<!--<img src="/ui/enfield.jpg" class="background"/>-->
     	<div class="center middleDiv zoomHover">
             <img id = 'bullet-img' src="/ui/enfield.jpg" class="img-medium"/>
         </div>
@@ -13,13 +13,19 @@
         <div id = 'main-text' class="center text-big bold zoomHover">
             Enfield Love...
         </div>
+       <div class="footer">
+            This Button <button id="counter">Click Me!</button> has been clicked <span id="count">0</span> times.
+            <hr/>
+            <input type="text" id="name" placeholder="Enter Name"></input>
+            <input type="submit" value="submit" id="submit-button"></input>
+            <ol id="nameList">
+            </ol>
+
+        </div>
     </div>
-    
-    <script type="text/javascript">
-        alert("Hello javascript...");
-    </script>>
+ 
         
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
+    <script type="text/javascript" src="/ui/main.js">
+    </script>
     </body>
 </html>
